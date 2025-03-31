@@ -5,6 +5,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.impute import SimpleImputer
 from catboost import CatBoostRegressor
 import random
+
 train_data = pd.read_csv("train.csv")
 test_data = pd.read_csv("test.csv")
 col1=test_data["Timestamp"].copy()
